@@ -135,3 +135,22 @@ img {
         padding: 0px;
     }
  }
+
+/* display telefono 480px */
+
+ @media all and (max-width:480px) {
+    .row{
+        display: block;
+    }
+    .row .col{
+        width: 100%;
+    }
+    .steps{
+        margin-bottom: 0px;
+    }
+    .why-us{
+        background-color: black;
+        padding: 3rem;
+        margin-bottom: 0px;
+    }
+ }
