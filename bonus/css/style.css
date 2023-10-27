@@ -157,7 +157,7 @@ img {
 
  /* bonus */
 
- @media all and (min-width:768px)  {
+ @media all and (min-width:768px) and (max-width:1160px) {
     section{
         display: flex;
     }
@@ -166,11 +166,3 @@ img {
     }
  }
 
- @media all and (min-width:1160px) {
-    section{
-        display: block;
-    }
-    .container{
-        width: 1140px;
-    }
- }
